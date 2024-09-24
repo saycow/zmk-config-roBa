@@ -70,7 +70,7 @@
 &kp Q             &kp W         &kp E         &kp R                 &kp T                                                    &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F                 &kp G        &kp LS(LG(S))             &kp LG(TAB)       &kp H        &kp J  &kp K      &kp L    &kp MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                 &kp B        &kp SEMICOLON             &kp LEFT_CONTROL  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_WIN  &mt LEFT_SHIFT LANG2  &lt 2 SPACE  &lt_to_layer_0 2 LANG1    &kp BACKSPACE     &lt 1 ENTER                             &kp ESC
+&kp LCTRL         &kp LEFT_ALT  &kp LEFT_WIN  &mt LEFT_SHIFT LANG2  &lt 4 SPACE  &lt_to_layer_0 2 LANG1    &kp BACKSPACE     &lt 1 ENTER                             &kp ESC
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -87,10 +87,10 @@
 
         NUM {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &kp N7        &kp N8        &kp N9        &kp N0
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                            &trans
+&trans  &kp F9  &kp F10  &kp F11  &kp F12                    &trans  &kp N7        &kp N8        &kp N9        &kp N0
+&trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans    &trans  &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans
+&trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans    &trans  &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&trans  &trans  &trans   &trans   &trans   &trans    &trans  &trans                                            &trans
             >;
         };
 
@@ -107,7 +107,7 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans    &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5                    &kp F6  &kp F7    &kp F8    &kp F9    &kp F10
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB4  &trans    &mkp MB5  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                &trans
