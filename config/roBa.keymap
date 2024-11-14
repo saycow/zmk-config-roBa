@@ -80,7 +80,7 @@
             bindings = <
 &kp EXCL   &kp LEFT_BRACKET  &kp HASH           &kp DOLLAR        &kp PERCENT                                &trans  &trans          &kp UP_ARROW    &trans           &trans
 &kp EQUAL  &kp CARET         &kp DOUBLE_QUOTES  &kp ASTERISK      &kp LEFT_PARENTHESIS  &trans       &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&kp MINUS  &kp COLON         &kp AT             &kp LEFT_BRACKET  &kp INT_YEN           &kp EQUAL    &trans  &trans  &trans          &trans          &trans           &trans
+&kp MINUS  &kp COLON         &kp RIGHT_BRACKET  &kp SINGLE_QUOTE  &kp INT_YEN           &kp EQUAL    &trans  &trans  &trans          &trans          &trans           &trans
 &trans     &trans            &trans             &trans            &trans                &trans       &trans  &trans                                                   &trans
             >;
         };
