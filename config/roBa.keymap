@@ -50,6 +50,14 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
+        screenshot: screenshot {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&lt 4 S>, <&macro_press>, <&kp LG(LS(S))>;
+
+            label = "SCREENSHOT";
+        };
     };
 
     behaviors {
