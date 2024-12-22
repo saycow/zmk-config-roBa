@@ -54,7 +54,8 @@
         screenshot: screenshot {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_META &kp LS(S)>;
+            bindings = <&macro_tap>, <&kp LEFT_META &kp LS(S)>;
+
             label = "SCREENSHOT";
         };
     };
